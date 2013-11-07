@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikHackaton.Ruler.Model", "TelerikHackaton.Ruler.Model\TelerikHackaton.Ruler.Model.csproj", "{08FE7EDF-E222-4A38-A178-4BD7EEB47B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikHackaton.Ruler.Data", "TelerikHackaton.Ruler.Data\TelerikHackaton.Ruler.Data.csproj", "{16B4DED6-732D-4E9A-B22F-4989DAC01936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikHackaton.Ruler.Services", "TelerikHackaton.Ruler.Services\TelerikHackaton.Ruler.Services.csproj", "{C33A85ED-A753-44D9-8995-2190D68AB8A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08FE7EDF-E222-4A38-A178-4BD7EEB47B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FE7EDF-E222-4A38-A178-4BD7EEB47B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FE7EDF-E222-4A38-A178-4BD7EEB47B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FE7EDF-E222-4A38-A178-4BD7EEB47B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B4DED6-732D-4E9A-B22F-4989DAC01936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B4DED6-732D-4E9A-B22F-4989DAC01936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B4DED6-732D-4E9A-B22F-4989DAC01936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B4DED6-732D-4E9A-B22F-4989DAC01936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33A85ED-A753-44D9-8995-2190D68AB8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33A85ED-A753-44D9-8995-2190D68AB8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33A85ED-A753-44D9-8995-2190D68AB8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33A85ED-A753-44D9-8995-2190D68AB8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
