@@ -110,8 +110,7 @@
             return responseMsg;
         }
 
-        // TODO: Fix PUT here... Currently works with POST only. Doncho should help :D Rename methods too...
-        [HttpPut]
+        [HttpPost]
         [ActionName("logout")]
         public HttpResponseMessage Logout([ValueProvider(typeof(HeaderValueProviderFactory<string>))] string sessionKey)
         {
