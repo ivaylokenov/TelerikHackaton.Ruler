@@ -1,12 +1,14 @@
 namespace TelerikHackaton.Ruler.Data.Migrations
 {
     using System;
+    using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
     using TelerikHackaton.Ruler.Data;
+    using TelerikHackaton.Ruler.Model;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<RulerDbContext>
+    public sealed class Configuration : DbMigrationsConfiguration<RulerDbContext>
     {
         public Configuration()
         {
@@ -15,18 +17,29 @@ namespace TelerikHackaton.Ruler.Data.Migrations
 
         protected override void Seed(RulerDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
+            this.SeedCategories(context);
+        }
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+        private void SeedCategories(RulerDbContext context)
+        {
+            if (context.Categories.Any())
+            {
+                return;
+            }
+
+            List<Category> categories = new List<Category>()
+            {
+                new Category
+                {
+                    Name = "Calendar",
+                },
+                new Category
+                {
+                    Name = "Location"
+                }
+            };
+
+            context.Categories.AddRange(categories);
         }
     }
 }

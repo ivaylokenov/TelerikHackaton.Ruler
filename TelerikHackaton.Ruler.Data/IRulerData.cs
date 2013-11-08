@@ -6,6 +6,8 @@
     {
         IRepository<User> Users { get; }
 
+        IRepository<Category> Categories { get; }
+
         int SaveChanges();
     }
 }

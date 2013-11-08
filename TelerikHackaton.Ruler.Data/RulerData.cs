@@ -48,5 +48,10 @@ namespace TelerikHackaton.Ruler.Data
         {
             get { return this.GetRepository<User>(); }
         }
+
+        public IRepository<Category> Categories
+        {
+            get { return this.GetRepository<Category>(); }
+        }
     }
 }

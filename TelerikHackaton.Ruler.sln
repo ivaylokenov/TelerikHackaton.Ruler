@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikHackaton.Ruler.Data"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikHackaton.Ruler.Services", "TelerikHackaton.Ruler.Services\TelerikHackaton.Ruler.Services.csproj", "{C33A85ED-A753-44D9-8995-2190D68AB8A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikHackaton.Ruler.Executor", "TelerikHackaton.Ruler.Executor\TelerikHackaton.Ruler.Executor.csproj", "{39D0732F-9928-432A-ABDE-B428A60C02F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C33A85ED-A753-44D9-8995-2190D68AB8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C33A85ED-A753-44D9-8995-2190D68AB8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C33A85ED-A753-44D9-8995-2190D68AB8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D0732F-9928-432A-ABDE-B428A60C02F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D0732F-9928-432A-ABDE-B428A60C02F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D0732F-9928-432A-ABDE-B428A60C02F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D0732F-9928-432A-ABDE-B428A60C02F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

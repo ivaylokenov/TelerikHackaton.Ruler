@@ -36,3 +36,7 @@ c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\Teler
 c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Services\bin\TelerikHackaton.Ruler.Model.pdb
 c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Services\bin\EntityFramework.xml
 c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Services\obj\Debug\TelerikHackaton.Ruler.Services.csprojResolveAssemblyReference.cache
+c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Services\bin\EntityFramework.SqlServer.dll
+c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Services\bin\EntityFramework.SqlServer.xml
+c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Services\bin\TelerikHackaton.Ruler.Executor.dll
+c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Services\bin\TelerikHackaton.Ruler.Executor.pdb

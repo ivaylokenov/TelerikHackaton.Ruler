@@ -39,10 +39,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web.DynamicData" />
@@ -123,6 +130,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\CategoriesController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -137,6 +145,7 @@
     </Compile>
     <Compile Include="InputModels\UserInputModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponseModels\CategoryResponseModel.cs" />
     <Compile Include="ResponseModels\UserResponseModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +194,10 @@
     <ProjectReference Include="..\TelerikHackaton.Ruler.Data\TelerikHackaton.Ruler.Data.csproj">
       <Project>{16b4ded6-732d-4e9a-b22f-4989dac01936}</Project>
       <Name>TelerikHackaton.Ruler.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TelerikHackaton.Ruler.Executor\TelerikHackaton.Ruler.Executor.csproj">
+      <Project>{39d0732f-9928-432a-abde-b428a60c02f2}</Project>
+      <Name>TelerikHackaton.Ruler.Executor</Name>
     </ProjectReference>
     <ProjectReference Include="..\TelerikHackaton.Ruler.Model\TelerikHackaton.Ruler.Model.csproj">
       <Project>{08fe7edf-e222-4a38-a178-4bd7eeb47b9d}</Project>
