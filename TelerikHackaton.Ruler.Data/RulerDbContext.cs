@@ -17,5 +17,11 @@
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<Condition> Conditions { get; set; }
+
+        public DbSet<ConditionType> ConditionTypes { get; set; }
+
+        public DbSet<ResultAction> Actions { get; set; }
+
+        public DbSet<Rule> Rules { get; set; }
     }
 }

@@ -17,7 +17,6 @@
         private const int MinUsernameLength = 6;
         private const int MaxUsernameLength = 30;
         private const string ValidUsernameCharacters = "qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890_.";
-        private const string ValidNicknameCharacters = "qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890_. -";
 
         private const string SessionKeyChars = "qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM";
         private static readonly Random rand = new Random();
@@ -32,15 +31,13 @@
             var responseMsg = this.PerformOperationAndHandleExceptions(
                 () =>
                 {
-                    this.ValidateUsername(model.Username);
-                    this.ValidateNickname(model.DisplayName);
-                    this.ValidateAuthCode(model.AuthCode);
+                    // this.ValidateUsername(model.Username);
+                    // this.ValidateNickname(model.DisplayName);
+                    // this.ValidateAuthCode(model.AuthCode);
 
                     var usernameToLower = model.Username.ToLower();
-                    var nicknameToLower = model.DisplayName.ToLower();
                     var user = this.Data.Users.All().FirstOrDefault(
-                        usr => usr.Username == usernameToLower
-                        || usr.DisplayName.ToLower() == nicknameToLower);
+                        usr => usr.Username == usernameToLower);
 
                     if (user != null)
                     {
@@ -50,7 +47,6 @@
                     user = new User()
                     {
                         Username = usernameToLower,
-                        DisplayName = model.DisplayName,
                         AuthCode = model.AuthCode
                     };
 
@@ -62,7 +58,6 @@
 
                     var loggedUserModel = new UserResponseModel()
                     {
-                        DisplayName = user.DisplayName,
                         SessionKey = user.SessionKey
                     };
 
@@ -80,8 +75,8 @@
             var responseMsg = this.PerformOperationAndHandleExceptions(
               () =>
               {
-                  this.ValidateUsername(model.Username);
-                  this.ValidateAuthCode(model.AuthCode);
+                  // this.ValidateUsername(model.Username);
+                  // this.ValidateAuthCode(model.AuthCode);
                   var usernameToLower = model.Username.ToLower();
                   var user = this.Data.Users.All().FirstOrDefault(
                       usr => usr.Username == usernameToLower
@@ -91,6 +86,7 @@
                   {
                       throw new InvalidOperationException("Invalid username or password");
                   }
+
                   if (user.SessionKey == null)
                   {
                       user.SessionKey = this.GenerateSessionKey(user.Id);
@@ -99,7 +95,6 @@
 
                   var loggedUserModel = new UserResponseModel()
                   {
-                      DisplayName = user.DisplayName,
                       SessionKey = user.SessionKey
                   };
 
@@ -146,31 +141,6 @@
             if (authCode == null || authCode.Length != Sha1Length)
             {
                 throw new ArgumentOutOfRangeException("Password should be encrypted");
-            }
-        }
-
-        private void ValidateNickname(string nickname)
-        {
-            if (nickname == null)
-            {
-                throw new ArgumentNullException("Nickname cannot be null");
-            }
-            else if (nickname.Length < MinUsernameLength)
-            {
-                throw new ArgumentOutOfRangeException(
-                    string.Format("Nickname must be at least {0} characters long",
-                    MinUsernameLength));
-            }
-            else if (nickname.Length > MaxUsernameLength)
-            {
-                throw new ArgumentOutOfRangeException(
-                    string.Format("Nickname must be less than {0} characters long",
-                    MaxUsernameLength));
-            }
-            else if (nickname.Any(ch => !ValidUsernameCharacters.Contains(ch)))
-            {
-                throw new ArgumentOutOfRangeException(
-                    "Nickname must contain only Latin letters, digits .,_");
             }
         }
 

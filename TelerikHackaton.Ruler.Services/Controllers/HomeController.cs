@@ -19,8 +19,11 @@
         {
             var condition = new Condition
             {
-                Property = "Month",
-                Operator = "GreaterThan",
+                ConditionType = new ConditionType
+                {
+                    Property = "Month",
+                    Operator = "LessThan",
+                },
                 Value = "10"
             };
 

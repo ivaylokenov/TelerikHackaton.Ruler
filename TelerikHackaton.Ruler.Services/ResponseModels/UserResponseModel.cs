@@ -14,14 +14,10 @@
             {
                 return user => new UserResponseModel
                 {
-                    DisplayName = user.DisplayName,
                     SessionKey = user.SessionKey
                 };
             }
         }
-
-        [DataMember(Name = "displayName")]
-        public string DisplayName { get; set; }
 
         [DataMember(Name = "sessionKey")]
         public string SessionKey { get; set; }

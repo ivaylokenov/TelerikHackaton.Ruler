@@ -53,5 +53,25 @@ namespace TelerikHackaton.Ruler.Data
         {
             get { return this.GetRepository<Category>(); }
         }
+
+        public IRepository<Condition> Conditions
+        {
+            get { return this.GetRepository<Condition>(); }
+        }
+
+        public IRepository<ConditionType> ConditionTypes
+        {
+            get { return this.GetRepository<ConditionType>(); }
+        }
+
+        public IRepository<ResultAction> Actions
+        {
+            get { return this.GetRepository<ResultAction>(); }
+        }
+
+        public IRepository<Rule> Rules
+        {
+            get { return this.GetRepository<Rule>(); }
+        }
     }
 }

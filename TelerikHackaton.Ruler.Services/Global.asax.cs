@@ -11,6 +11,7 @@
     using System.Web.Routing;
     using TelerikHackaton.Ruler.Data;
     using TelerikHackaton.Ruler.Data.Migrations;
+    using TelerikHackaton.Ruler.Services.Expressions;
 
     public class MvcApplication : System.Web.HttpApplication
     {
@@ -22,6 +23,7 @@
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ExpressionSolver.Start();
         }
     }
 }
