@@ -1,9 +1,0 @@
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Model\bin\Debug\TelerikHackaton.Ruler.Model.dll.config
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Model\bin\Debug\TelerikHackaton.Ruler.Model.dll
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Model\bin\Debug\TelerikHackaton.Ruler.Model.pdb
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Model\bin\Debug\EntityFramework.dll
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Model\bin\Debug\EntityFramework.SqlServer.dll
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Model\bin\Debug\EntityFramework.xml
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Model\bin\Debug\EntityFramework.SqlServer.xml
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Model\obj\Debug\TelerikHackaton.Ruler.Model.dll
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Model\obj\Debug\TelerikHackaton.Ruler.Model.pdb

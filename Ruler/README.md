@@ -1,13 +1,5 @@
-<h1>Let's meet!</h1>
-====================
-
-<strong>Let's meet</strong> is next level iOS events manager utilizing the Ruler server and its services.
-<br />
-<strong>Let's meet</strong> allows you to add, edit and delete rules by which your phone will notify you for every single event you want based on predefined conditions on calendar, weather and location services.
-
-<br />
-<h1>Ruler</h1>
-==============
+Ruler
+=====
 ASP.NET Web API services built to give users <strong>"if conditions"</strong> in their lives. Server evaluates rules on condition basis and return action, which can be invoked in various clients. Typical usage - a person can put himself a reminder for an event if some conditions are true. 
 <br />
 <br />

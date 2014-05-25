@@ -1,7 +1,0 @@
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Executor\obj\Debug\TelerikHackaton.Ruler.Executor.csprojResolveAssemblyReference.cache
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Executor\bin\Debug\TelerikHackaton.Ruler.Executor.dll
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Executor\bin\Debug\TelerikHackaton.Ruler.Executor.pdb
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Executor\bin\Debug\TelerikHackaton.Ruler.Model.dll
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Executor\bin\Debug\TelerikHackaton.Ruler.Model.pdb
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Executor\obj\Debug\TelerikHackaton.Ruler.Executor.dll
-c:\users\kenov\documents\visual studio 2013\Projects\TelerikHackaton.Ruler\TelerikHackaton.Ruler.Executor\obj\Debug\TelerikHackaton.Ruler.Executor.pdb

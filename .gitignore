@@ -1,0 +1,29 @@
+# Mac OS X
+*.DS_Store
+*.pkg
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xccheckout
+xcuserdata/
+TelerikUI/Documentation/
+bin/
+obj/
+TelerikUI/build/
+#xcshareddata/
+
+# Generated files
+*.o
+*.pyc
+
+# Backup files
+*~.nib
+
+# SlideOutNavigation framework
+Spikes/SlideOutNavigation_Demo/SlideOutNavigation.Framework/
+Spikes/SlideOutNavigation_Demo/build/
+
